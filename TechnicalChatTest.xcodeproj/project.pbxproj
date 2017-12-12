@@ -7,23 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1842C389CE9FFDFCC4B19CE /* Pods_TechnicalChatTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49004AE2E118B4D850860F2 /* Pods_TechnicalChatTest.framework */; };
+		F62ED4191FDED1CE00F61010 /* OpenChannelChattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62ED4171FDED1CE00F61010 /* OpenChannelChattingViewController.swift */; };
+		F62ED41A1FDED1CE00F61010 /* OpenChannelChattingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F62ED4181FDED1CE00F61010 /* OpenChannelChattingViewController.xib */; };
+		F63683FF1FDEC28D00233335 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63683FE1FDEC28D00233335 /* Constants.swift */; };
+		F65D21411FE011C90026ADD8 /* ParticipantListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F65D21401FE011C90026ADD8 /* ParticipantListViewController.xib */; };
+		F67237AC1FDED881006383B6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67237AB1FDED881006383B6 /* Utils.swift */; };
+		F6871F591FDEBEF300AB70F3 /* ChattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6871F581FDEBEF300AB70F3 /* ChattingView.swift */; };
+		F6871F5B1FDEBF0100AB70F3 /* ChattingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6871F5A1FDEBF0100AB70F3 /* ChattingView.xib */; };
+		F6990B511FDFEA0F00D622E9 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6990B501FDFEA0F00D622E9 /* CommonCrypto.framework */; };
+		F6990B531FDFEB8800D622E9 /* ParticipantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6990B521FDFEB8800D622E9 /* ParticipantListViewController.swift */; };
+		F6990B551FDFEBAD00D622E9 /* ParticipantListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6990B541FDFEBAD00D622E9 /* ParticipantListTableViewCell.swift */; };
+		F6990B571FDFEBB200D622E9 /* ParticipantListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6990B561FDFEBB200D622E9 /* ParticipantListTableViewCell.xib */; };
 		F6B4AF0C1FDDCBFE0047A110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4AF0B1FDDCBFE0047A110 /* AppDelegate.swift */; };
-		F6B4AF0E1FDDCBFE0047A110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4AF0D1FDDCBFE0047A110 /* ViewController.swift */; };
 		F6B4AF111FDDCBFE0047A110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B4AF0F1FDDCBFE0047A110 /* Main.storyboard */; };
 		F6B4AF141FDDCBFE0047A110 /* TechnicalChatTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6B4AF121FDDCBFE0047A110 /* TechnicalChatTest.xcdatamodeld */; };
 		F6B4AF161FDDCBFF0047A110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B4AF151FDDCBFF0047A110 /* Assets.xcassets */; };
 		F6B4AF191FDDCBFF0047A110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B4AF171FDDCBFF0047A110 /* LaunchScreen.storyboard */; };
+		F6B4AF231FDDCCFB0047A110 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B4AF221FDDCCFB0047A110 /* SubmitViewController.swift */; };
+		F6DCCE4D1FDEC13E0021AA7E /* ReusableViewFromXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCCE4C1FDEC13E0021AA7E /* ReusableViewFromXib.swift */; };
+		F6DCCE6D1FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCCE541FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.swift */; };
+		F6DCCE731FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCCE5A1FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.swift */; };
+		F6DCCE7A1FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6DCCE611FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.xib */; };
+		F6DCCE7E1FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6DCCE651FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70B1BB7AE1C542E6B61BC5AF /* Pods-TechnicalChatTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalChatTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechnicalChatTest/Pods-TechnicalChatTest.release.xcconfig"; sourceTree = "<group>"; };
+		E4696852F7C8F0C5ACAC533B /* Pods-TechnicalChatTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalChatTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechnicalChatTest/Pods-TechnicalChatTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E49004AE2E118B4D850860F2 /* Pods_TechnicalChatTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechnicalChatTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62ED4171FDED1CE00F61010 /* OpenChannelChattingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenChannelChattingViewController.swift; sourceTree = "<group>"; };
+		F62ED4181FDED1CE00F61010 /* OpenChannelChattingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenChannelChattingViewController.xib; sourceTree = "<group>"; };
+		F63683FE1FDEC28D00233335 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F65D21401FE011C90026ADD8 /* ParticipantListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParticipantListViewController.xib; sourceTree = "<group>"; };
+		F67237AB1FDED881006383B6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F6871F581FDEBEF300AB70F3 /* ChattingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingView.swift; sourceTree = "<group>"; };
+		F6871F5A1FDEBF0100AB70F3 /* ChattingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChattingView.xib; sourceTree = "<group>"; };
+		F6990B4F1FDFE95800D622E9 /* iphoneos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
+		F6990B501FDFEA0F00D622E9 /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonCrypto.framework; sourceTree = "<group>"; };
+		F6990B521FDFEB8800D622E9 /* ParticipantListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantListViewController.swift; sourceTree = "<group>"; };
+		F6990B541FDFEBAD00D622E9 /* ParticipantListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantListTableViewCell.swift; sourceTree = "<group>"; };
+		F6990B561FDFEBB200D622E9 /* ParticipantListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParticipantListTableViewCell.xib; sourceTree = "<group>"; };
 		F6B4AF081FDDCBFE0047A110 /* TechnicalChatTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalChatTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B4AF0B1FDDCBFE0047A110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6B4AF0D1FDDCBFE0047A110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6B4AF101FDDCBFE0047A110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6B4AF131FDDCBFE0047A110 /* TechnicalChatTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechnicalChatTest.xcdatamodel; sourceTree = "<group>"; };
 		F6B4AF151FDDCBFF0047A110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B4AF181FDDCBFF0047A110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6B4AF1A1FDDCBFF0047A110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B4AF221FDDCCFB0047A110 /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		F6DCCE4C1FDEC13E0021AA7E /* ReusableViewFromXib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableViewFromXib.swift; sourceTree = "<group>"; };
+		F6DCCE541FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutgoingUserMessageTableViewCell.swift; sourceTree = "<group>"; };
+		F6DCCE5A1FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomingUserMessageTableViewCell.swift; sourceTree = "<group>"; };
+		F6DCCE611FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomingUserMessageTableViewCell.xib; sourceTree = "<group>"; };
+		F6DCCE651FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutgoingUserMessageTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +68,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6990B511FDFEA0F00D622E9 /* CommonCrypto.framework in Frameworks */,
+				E1842C389CE9FFDFCC4B19CE /* Pods_TechnicalChatTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312BF767D46E16BD2F84791A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4696852F7C8F0C5ACAC533B /* Pods-TechnicalChatTest.debug.xcconfig */,
+				70B1BB7AE1C542E6B61BC5AF /* Pods-TechnicalChatTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E7868A970776AA76A4598F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E49004AE2E118B4D850860F2 /* Pods_TechnicalChatTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F65D21421FE0199B0026ADD8 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F6DCCE4C1FDEC13E0021AA7E /* ReusableViewFromXib.swift */,
+				F62ED4181FDED1CE00F61010 /* OpenChannelChattingViewController.xib */,
+				F6871F5A1FDEBF0100AB70F3 /* ChattingView.xib */,
+				F6990B561FDFEBB200D622E9 /* ParticipantListTableViewCell.xib */,
+				F65D21401FE011C90026ADD8 /* ParticipantListViewController.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		F65D21431FE019D10026ADD8 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				F67237AB1FDED881006383B6 /* Utils.swift */,
+				F63683FE1FDEC28D00233335 /* Constants.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		F6990B4E1FDFE92400D622E9 /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				F6990B4F1FDFE95800D622E9 /* iphoneos.modulemap */,
+			);
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
 		F6B4AEFF1FDDCBFE0047A110 = {
 			isa = PBXGroup;
 			children = (
 				F6B4AF0A1FDDCBFE0047A110 /* TechnicalChatTest */,
 				F6B4AF091FDDCBFE0047A110 /* Products */,
+				F6990B501FDFEA0F00D622E9 /* CommonCrypto.framework */,
+				312BF767D46E16BD2F84791A /* Pods */,
+				4E7868A970776AA76A4598F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +144,12 @@
 		F6B4AF0A1FDDCBFE0047A110 /* TechnicalChatTest */ = {
 			isa = PBXGroup;
 			children = (
+				F6990B4E1FDFE92400D622E9 /* CommonCrypto */,
 				F6B4AF0B1FDDCBFE0047A110 /* AppDelegate.swift */,
-				F6B4AF0D1FDDCBFE0047A110 /* ViewController.swift */,
+				F6DCCE501FDEC1AC0021AA7E /* ViewCell */,
+				F65D21421FE0199B0026ADD8 /* Xibs */,
+				F65D21431FE019D10026ADD8 /* Help */,
+				F6B4AF241FDDCD070047A110 /* ViewControlers */,
 				F6B4AF0F1FDDCBFE0047A110 /* Main.storyboard */,
 				F6B4AF151FDDCBFF0047A110 /* Assets.xcassets */,
 				F6B4AF171FDDCBFF0047A110 /* LaunchScreen.storyboard */,
@@ -67,6 +159,29 @@
 			path = TechnicalChatTest;
 			sourceTree = "<group>";
 		};
+		F6B4AF241FDDCD070047A110 /* ViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				F6B4AF221FDDCCFB0047A110 /* SubmitViewController.swift */,
+				F62ED4171FDED1CE00F61010 /* OpenChannelChattingViewController.swift */,
+				F6871F581FDEBEF300AB70F3 /* ChattingView.swift */,
+				F6990B521FDFEB8800D622E9 /* ParticipantListViewController.swift */,
+			);
+			path = ViewControlers;
+			sourceTree = "<group>";
+		};
+		F6DCCE501FDEC1AC0021AA7E /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F6990B541FDFEBAD00D622E9 /* ParticipantListTableViewCell.swift */,
+				F6DCCE541FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.swift */,
+				F6DCCE5A1FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.swift */,
+				F6DCCE611FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.xib */,
+				F6DCCE651FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.xib */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6B4AF1D1FDDCBFF0047A110 /* Build configuration list for PBXNativeTarget "TechnicalChatTest" */;
 			buildPhases = (
+				214E0C2C0BF2325E37B64604 /* [CP] Check Pods Manifest.lock */,
 				F6B4AF041FDDCBFE0047A110 /* Sources */,
 				F6B4AF051FDDCBFE0047A110 /* Frameworks */,
 				F6B4AF061FDDCBFE0047A110 /* Resources */,
+				549936F80119149ECD4D72F3 /* [CP] Embed Pods Frameworks */,
+				2AB98E0EFE3454EEA825FFF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,21 +245,100 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6B4AF191FDDCBFF0047A110 /* LaunchScreen.storyboard in Resources */,
+				F6DCCE7A1FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.xib in Resources */,
 				F6B4AF161FDDCBFF0047A110 /* Assets.xcassets in Resources */,
+				F6871F5B1FDEBF0100AB70F3 /* ChattingView.xib in Resources */,
 				F6B4AF111FDDCBFE0047A110 /* Main.storyboard in Resources */,
+				F6DCCE7E1FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.xib in Resources */,
+				F6990B571FDFEBB200D622E9 /* ParticipantListTableViewCell.xib in Resources */,
+				F62ED41A1FDED1CE00F61010 /* OpenChannelChattingViewController.xib in Resources */,
+				F65D21411FE011C90026ADD8 /* ParticipantListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		214E0C2C0BF2325E37B64604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechnicalChatTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AB98E0EFE3454EEA825FFF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TechnicalChatTest/Pods-TechnicalChatTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549936F80119149ECD4D72F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TechnicalChatTest/Pods-TechnicalChatTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/NYTPhotoViewer/NYTPhotoViewer.framework",
+				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYTPhotoViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendBirdSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TechnicalChatTest/Pods-TechnicalChatTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6B4AF041FDDCBFE0047A110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6B4AF0E1FDDCBFE0047A110 /* ViewController.swift in Sources */,
+				F6B4AF231FDDCCFB0047A110 /* SubmitViewController.swift in Sources */,
+				F67237AC1FDED881006383B6 /* Utils.swift in Sources */,
+				F6DCCE731FDEC1AC0021AA7E /* IncomingUserMessageTableViewCell.swift in Sources */,
+				F6871F591FDEBEF300AB70F3 /* ChattingView.swift in Sources */,
 				F6B4AF0C1FDDCBFE0047A110 /* AppDelegate.swift in Sources */,
+				F6DCCE6D1FDEC1AC0021AA7E /* OutgoingUserMessageTableViewCell.swift in Sources */,
+				F63683FF1FDEC28D00233335 /* Constants.swift in Sources */,
+				F6DCCE4D1FDEC13E0021AA7E /* ReusableViewFromXib.swift in Sources */,
+				F6990B531FDFEB8800D622E9 /* ParticipantListViewController.swift in Sources */,
+				F62ED4191FDED1CE00F61010 /* OpenChannelChattingViewController.swift in Sources */,
 				F6B4AF141FDDCBFE0047A110 /* TechnicalChatTest.xcdatamodeld in Sources */,
+				F6990B551FDFEBAD00D622E9 /* ParticipantListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +473,22 @@
 		};
 		F6B4AF1E1FDDCBFF0047A110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4696852F7C8F0C5ACAC533B /* Pods-TechnicalChatTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43A7P7CUWY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TechnicalChatTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.TechnicalChatTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,13 +496,22 @@
 		};
 		F6B4AF1F1FDDCBFF0047A110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B1BB7AE1C542E6B61BC5AF /* Pods-TechnicalChatTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43A7P7CUWY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TechnicalChatTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.TechnicalChatTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

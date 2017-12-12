@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import SendBirdSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        SBDMain.initWithApplicationId("2416A8C4-A4D0-488E-86B4-381C11C8FB57")
+        SBDMain.setLogLevel(SBDLogLevel.none)
+        SBDOptions.setUseMemberAsMessageSender(true)
+
         return true
     }
 

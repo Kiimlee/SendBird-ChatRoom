@@ -29,6 +29,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="011431-blue-jelly-icon-animals-animal-bird" translatesAutoresizingMaskIntoConstraints="NO" id="pY5-OZ-tOK">
+                                <rect key="frame" x="116" y="65" width="142" height="146"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your id." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Btx-F4-hy4">
                                 <rect key="frame" x="85" y="320" width="205" height="30"/>
                                 <nil key="textColor"/>
@@ -51,11 +54,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="pY5-OZ-tOK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="6By-bW-k70"/>
                             <constraint firstItem="kUa-eO-zbi" firstAttribute="top" secondItem="qbH-eU-ZkT" secondAttribute="bottom" constant="52" id="IZd-8e-2Bp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pY5-OZ-tOK" secondAttribute="trailing" constant="117" id="JRm-Z6-QeD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kUa-eO-zbi" secondAttribute="trailing" constant="158" id="Kms-FZ-Bv7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qbH-eU-ZkT" secondAttribute="trailing" constant="85" id="Sn0-WI-Rt0"/>
                             <constraint firstItem="qbH-eU-ZkT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="VPu-gx-87A"/>
+                            <constraint firstItem="mbG-7E-Ocb" firstAttribute="top" secondItem="pY5-OZ-tOK" secondAttribute="bottom" constant="29" id="VUO-ys-yXQ"/>
                             <constraint firstItem="qbH-eU-ZkT" firstAttribute="top" secondItem="Btx-F4-hy4" secondAttribute="bottom" constant="38" id="Y2j-3b-K8D"/>
+                            <constraint firstItem="pY5-OZ-tOK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="ZEu-yy-Xwx"/>
                             <constraint firstItem="mbG-7E-Ocb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="Zdo-Mz-dK0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kUa-eO-zbi" secondAttribute="bottom" constant="167" id="bOP-mC-3aw"/>
                             <constraint firstItem="kUa-eO-zbi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="158" id="boA-1S-g6W"/>
@@ -77,4 +84,7 @@
             <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="011431-blue-jelly-icon-animals-animal-bird" width="256" height="256"/>
+    </resources>
 </document>

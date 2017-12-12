@@ -45,7 +45,7 @@ class OpenChannelChattingViewController: UIViewController, SBDConnectionDelegate
         
         // Do any additional setup after loading the view.
         let titleView: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width - 100, height: 64))
-        titleView.attributedText = Utils.generateNavigationTitle(mainTitle: String(format:"%@(%ld)", self.openChannel.name), subTitle: "")
+        titleView.attributedText = Utils.generateNavigationTitle(mainTitle: String(format:"%@(%ld)", self.openChannel.name, self.openChannel.participantCount), subTitle: "")
         titleView.numberOfLines = 2
         titleView.textAlignment = NSTextAlignment.center
         
@@ -306,7 +306,7 @@ class OpenChannelChattingViewController: UIViewController, SBDConnectionDelegate
             
             do {
                 let detector: NSDataDetector = try NSDataDetector(types: NSTextCheckingResult.CheckingType.link.rawValue)
-                let matches = detector.matches(in: message!, options: NSRegularExpression.MatchingOptions.init(rawValue: 0), range: NSMakeRange(0, (message?.count)!))
+                let matches = detector.matches(in: message!, options: NSRegularExpression.MatchingOptions.init(rawValue: 0), range: NSMakeRange(0, (message?.characters.count)!))
                 var url: URL? = nil
                 for item in matches {
                     let match = item as NSTextCheckingResult

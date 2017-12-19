@@ -12,3 +12,5 @@ Install and run:
 7. There is only one ChatRoom
 8. Click on the more button on the top right of the screen to access to the list of all the participants of the conversation.
 9. Enjoy the chatting!
+
+Inspired by https://github.com/smilefam/SendBird-iOS 
